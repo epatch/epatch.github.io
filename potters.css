@@ -42,7 +42,6 @@ nav.horizontal {
 	width: 100%;
 	height: 100%;
 	background-color: black;
-	margin-top: -14px;
 }
 .center {
   display: block;
@@ -104,6 +103,14 @@ nav.horizontal > ul > li a:hover, a:visited, a:link, a:active
 }
 .item2 {
 	margin: auto;
+}
+
+.item5 a:link, .item5 a:visited {
+   color: red;
+}
+
+.item5 a:hover, .item5 a:active {
+   color: gray;
 }
 
 .news, .card, .testimonials {
