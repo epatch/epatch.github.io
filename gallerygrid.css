@@ -33,6 +33,9 @@ header, ul, nav, li, a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+header {
+	margin-bottom: -20px;
+}
 
 /* Page Navbar Styles */
 nav.horizontal {
