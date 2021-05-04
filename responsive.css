@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*
+	ITD110 F01 Web Page Design I
+	Spring 2021
+    Final Personal Website
+    
+	Potter's Paint Studio Media Query Stylesheet
+	Author: Emily Patch
+    Date:   28APR2021
+
+    Filename: responsive.css
+
+*/
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {
+	  font-size: 11px;
+	}
+}
+
+/* Mobile Styles: 0px to 480px and greater */
+@media only screen and (max-width: 480px) {
+	nav.horizontal, .grid-container, .item3, .item4, .item5, .item6, .container {
+	width: 100%;
+	}
+}
+
+/* Tablet Styles: 481px and greater */
+@media only screen and (max-width: 481px) {
+	nav.horizontal, .grid-container, .item3, .item4, .item5, .item6, .container {
+	width: 100%;
+	}
+}
+/* Desktop Styles: 769px and greater */
+@media only screen and (max-width: 769px) {
+	nav.horizontal, .grid-container, .item3, .item4, .item5, .item6, .container {
+	width: 100%;
+	}
+}
