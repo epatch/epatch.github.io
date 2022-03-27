@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /*
 	ITD210 F01 Web Page Design II
 	Spring 2022
@@ -9,8 +11,6 @@
 
     Filename: styles.css
 */
-
-@charset "utf-8";
 
 html {
     height: 100%;
@@ -69,6 +69,5 @@ footer li {
     display: block;
     float: left;
     text-align: center;
-    padding: 12px;
-    12px;
+    padding: 12px 12px;
 }
