@@ -1,0 +1,74 @@
+/*
+	ITD210 F01 Web Page Design II
+	Spring 2022
+    Module 02: Assignment Introduction
+    
+	Introduction Stylesheet
+	Author: Emily Patch
+    Date:   26MAR2022
+
+    Filename: styles.css
+*/
+
+@charset "utf-8";
+
+html {
+    height: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px 12px;
+}
+
+body {
+    font-family: Arial;
+    background-color: lightpink;
+    color: black;
+}
+
+img {
+    border: 6px double black;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+aside {
+    float: right;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    12px;
+}
