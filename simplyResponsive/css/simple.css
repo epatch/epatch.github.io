@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*
+	ITD210 F01 Web Page Design II
+	Spring 2022
+    Module 04: Assignment Simply Responsive
+    
+	Simple Stylesheet
+	Author: Emily Patch
+    Date:   10APR2022
+
+    Filename: simple.css
+*/
+
+/*mobile response*/
+@media only screen and (max-width: 480px) {
+    section {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+        background-color: white;
+        color: black;
+    }
+}
+
+/*desktop response*/
+@media only screen and (min-width: 500px) {
+    .box {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+
+    .rock {
+        background-color: lightpink;
+    }
+
+    .bean {
+        color: blueviolet;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .box {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        column-gap: 10px;
+    }
+
+    .rock {
+        background-color: lightblue;
+    }
+
+    .bean {
+        color: red;
+        font-size: 3em;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: inline-block;
+    font-family: Veranda;
+    margin: 0px 12px 0px 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 12px 12px;
+}
