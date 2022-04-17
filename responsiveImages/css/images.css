@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*
+	ITD210 F01 Web Page Design II
+	Spring 2022
+    Module 06: Assignment Responsive Images
+    
+	Images Stylesheet
+	Author: Emily Patch
+    Date:   17APR2022
+
+    Filename: images.css
+*/
+
+/*mobile response*/
+@media only screen and (max-width: 380px) {
+    .flex {
+        width: 100%;
+        height: auto;
+        font-size: .5em;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Ukraine {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    figcaption {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Ukraine {
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
+
+    figcaption {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .flex {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .Ukraine {
+        flex: 0 0 100%;
+    }
+
+    figcaption {
+        font-size: 2em;
+    }
+}
+
+html {
+    font-family: "Lucinda Sans", sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+img {
+    border-style: double;
+}
+
+figure {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
