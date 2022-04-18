@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*
+	ITD210 F01 Web Page Design II
+	Spring 2022
+    Module 08: CSS Option
+    
+	Option Stylesheet
+	Author: Emily Patch
+    Date:   18APR2022
+
+    Filename: option.css
+*/
+
+/*mobile response*/
+@media only screen and (max-width: 380px) {
+    .flex {
+        width: 100%;
+        height: auto;
+        font-size: .5em;
+    }
+}
+
+html {
+    box-sizing: border-box;
+    background: linear-gradient(rgba(255, 105, 180, 0.8), rgba(0, 0, 0, 0.8));
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'partyBusiness';
+    src: url(\PartyBusiness-4B0K.ttf);
+}
+
+@font-face {
+    font-family: 'indieFlower';
+    src: url(\IndieFlower-Regular.ttf);
+}
+
+h1 {
+    column-span: all;
+    text-align: center;
+    font-family: 'partyBusiness', sans-serif;
+    text-shadow: 2px 2px 4px #5B5A51;
+}
+
+.dice {
+    background-image: url("PatchworkEm.png"), url("dice.jpg");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    border: solid;
+    height: 200px;
+    margin-bottom: 10px;
+    filter: opacity(60%);
+}
+
+.games {
+    column-count: 2;
+    box-shadow: 20px 10px 50px -10px;
+    padding: 10px;
+    font-family: 'indieFlower', sans-serif;
+    font-weight: bold;
+}
+
+.home,
+ol {
+    font-family: 'indieFlower', sans-serif;
+}
+
+@media only screen and (min-width: 400px) {
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+}
