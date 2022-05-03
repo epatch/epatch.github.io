@@ -1,0 +1,17 @@
+The content and images you create must be 100% your own work - I used images from Unsplash.
+You may choose your own topic - Bird Watching
+You must use Bootstrap - every page uses a bootstrap container.
+HTML: seven files minimum - about, blog, contact, feed, identify, index, links
+Image files: seven minimum - blue_tit, bluebird, bluejay, cardinal, finch, hummingbird, merlin_app, merlin_web, robin, swallow
+CSS: use bootstrap.css if you choose to add some custom CSS, create your own CSS file, separate from bootstrap.css. The link to the custom style sheet must go below the link to the bootstrap.css - used both
+Javascript: use bootstrap.js to do something. You may pick one or two of the following, or choose your own:
+Carousel on index
+Tooltip on About
+
+Use a list - grouped list with links on links page
+Create one form (it need not work) - contact us form
+Use at least one button links, about, and contacts all have buttons
+You decide what it does; it must do something
+Responsiveness: site must be responsive - check (bootstrap containers)
+In other words, the layout changes depending upon viewport size: xs, sm, md, lg
+use bootstraps grid-based classes to do this

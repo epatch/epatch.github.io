@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*
+	ITD210 F01 Web Page Design II
+	Spring 2022
+    Module 12: Project Bootstrap
+    
+	Style Stylesheet
+	Author: Emily Patch
+    Date:   03MAY2022
+
+    Filename: style.css
+*/
+
+@font-face {
+    font-family: 'betterGrade';
+    src: url(\BetterGrade-519DV.ttf);
+}
+
+h1,
+h3 {
+    column-span: all;
+    text-align: center;
+    font-family: 'betterGrade', sans-serif;
+    text-shadow: 2px 2px 4px #5B5A51;
+}
+
+.mb-3 {
+    padding: 0 20% 0 20%;
+}
