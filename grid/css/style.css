@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*
+	ITD210 F01 Web Page Design II
+	Spring 2022
+    Assignment: Using a Grid Layout
+    
+	Style Stylesheet
+	Author: Emily Patch
+    Date:   08MAY2022
+
+    Filename: style.css
+*/
+
+.index-wrapper {
+    display: grid;
+    grid-template-areas: 'col-1 col-2';
+    gap: 10px;
+    background-color: crimson;
+    padding: 10px;
+}
+
+.col-1 {
+    background-color: antiquewhite;
+    border: solid;
+    text-align: center;
+    font-size: 2em;
+}
+
+.col-2 {
+    background-color: burlywood;
+    border: solid;
+    text-align: center;
+    font-size: 2em;
+}
+
+.line-wrapper {
+    display: grid;
+    grid-template-areas: auto auto auto auto;
+    gap 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.line-wrapper > div {
+    text-align: center;
+    font-size: 2em;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-areas: 'item1 item1 item1 item1'
+        'item2 item2'
+        'null item3 item3 item3'
+        'item4 item4 item4 item4'
+        'null item5 item6 item6';
+    gap 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.grid-wrapper > div {
+    text-align: center;
+    font-size: 2em;
+}
+
+.item1 {
+    background-color: cadetblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: solid;
+}
+
+.item2 {
+    background-color: cadetblue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: solid;
+}
+
+.item3 {
+    background-color: cadetblue;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: solid;
+}
+
+.item4 {
+    background-color: antiquewhite;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: solid;
+}
+
+.item5 {
+    background-color: cadetblue;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: solid;
+}
+
+.item6 {
+    background-color: cadetblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border: solid;
+}
