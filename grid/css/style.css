@@ -47,23 +47,6 @@
     font-size: 2em;
 }
 
-.grid-wrapper {
-    display: grid;
-    grid-template-areas: 'item1 item1 item1 item1'
-        'item2 item2'
-        'null item3 item3 item3'
-        'item4 item4 item4 item4'
-        'null item5 item6 item6';
-    gap 10px;
-    background-color: antiquewhite;
-    padding: 10px;
-}
-
-.grid-wrapper > div {
-    text-align: center;
-    font-size: 2em;
-}
-
 .item1 {
     background-color: cadetblue;
     grid-column-start: 1;
